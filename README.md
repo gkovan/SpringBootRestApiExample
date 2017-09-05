@@ -1,4 +1,4 @@
 # SpringBootRestApiExample
 
-This is the documentation for feature2.
+This is the documentation for feature1.
 
