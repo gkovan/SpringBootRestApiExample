@@ -198,7 +198,7 @@ public class RestApiController {
             <lastname>Smith</lastname>
          </customer>
 	  *
-	  *
+	  * Returns a String value
 	  */
 	 @PostMapping("/customerstring")
 	 public String postCustomerString(@RequestBody String customer){
