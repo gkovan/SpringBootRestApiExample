@@ -187,4 +187,22 @@ public class RestApiController {
 		 return "Done";
 	 }
 
+	 /* TO run this in postmamn:
+	  * HTTP method is POST
+	  * URL: http://localhost:8080/SpringBootRestApi/api/customer
+	  * Header Key and Value: Content-type  text/xml
+	  * Payload:
+	    <customer>
+            <age>30</age>
+            <firstname>Peter</firstname>
+            <lastname>Smith</lastname>
+         </customer>
+	  *
+	  *
+	  */
+	 @PostMapping("/customerstring")
+	 public String postCustomerString(@RequestBody String customer){
+		 System.out.println(customer);
+		 return "Done";
+	 }
 }
